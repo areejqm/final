@@ -1,6 +1,5 @@
 <style type = "text/css">
 
-
 .page-header{
 	margin-top:0;
 }
@@ -12,6 +11,36 @@
 }
 body{
 	margin-bottom: 50px;
-	
+	font-family: verdana, helvetica, arial, times, verdana, tahoma,  sans-serif
+}
+.btn-primary { 
+	border-color: #222222; background-color: #222222; color: #9D9D9D;
+}
+
+.btn-primary:hover { 
+	border-color: #222222; background-color: #222222; color: white; 
+}
+.alert{
+    color: #824F2E;
+    background-color: white;
+    border-style: none;
+    -webkit-box-shadow: 0px 0px 20px #BDA68E;
+       -moz-box-shadow: 0px 0px 20px #BDA68E;
+            box-shadow: 0px 0px 20px #BDA68E;
+
+}
+.carousel img {
+  
+  min-width: 100%;
+  max-height: 390px;
+
+}
+ul.nav a:hover { color: #BDA68E !important; }
+
+a.navbar-brand:hover{
+	color: #BDA68E !important;
+}
+a.btn:hover{
+	color: #BDA68E !important
 }
 </style>
