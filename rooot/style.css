@@ -1,46 +1,210 @@
 <style type = "text/css">
 
+<!-- 
+
+To earn an 80% - you must have 
+
+	a responsive collapsing navigation bar,
+
+	a sticky footer bar, and 
+
+	a Contact Me popup box on all pages. 
+
+Your home page should have 
+
+	a jumbotron and 
+
+	a responsive grid system. 
+
+You should have 
+
+	two article pages filled with 
+
+		text, 
+
+		at least one picture, and 
+
+		an article sidebar.
+
+Earn an extra 10% per extra articles page you create. 
+
+These extra articles pages should also be accessible through the navigation bar. 
+
+Your extra article pages should also be filled with text and at least one picture.
+
+Make sure to use external CSS
+
+This bootstrap site will count as your FINAL EXAM project. 
+
+This site is due by Monday, July 17th. 
+
+NO LATE SUBMISSIONS ACCEPTED!!
+
+-->
+
 .page-header{
+
 	margin-top:0;
+
 }
+
 .panel-body{
+
 	padding-top:0;
+
 }
+
 .featureImg{
+
 	margin-bottom:15px;
+
 }
+
 body{
+
 	margin-bottom: 50px;
+
 	font-family: verdana, helvetica, arial, times, verdana, tahoma,  sans-serif
+
 }
-.btn-primary { 
-	border-color: #222222; background-color: #222222; color: #9D9D9D;
+.btn-primary {
+
+	border-color: #222222;
+
+	background-color: #222222; 
+
+	color: #9D9D9D;
+
 }
 
 .btn-primary:hover { 
-	border-color: #222222; background-color: #222222; color: white; 
+
+	border-color: #222222; 
+
+	background-color: #222222; 
+
+	color: white; 
+
 }
+
 .alert{
+
     color: #824F2E;
+
     background-color: white;
+
     border-style: none;
+
     -webkit-box-shadow: 0px 0px 20px #BDA68E;
+
        -moz-box-shadow: 0px 0px 20px #BDA68E;
+
             box-shadow: 0px 0px 20px #BDA68E;
 
 }
+
+
 .carousel img {
   
   min-width: 100%;
+
   max-height: 390px;
 
 }
-ul.nav a:hover { color: #BDA68E !important; }
+
+
+ul.nav a:hover { 
+	color: #BDA68E !important; 
+}
+
 
 a.navbar-brand:hover{
+
 	color: #BDA68E !important;
+
 }
+
+
 a.btn:hover{
+
 	color: #BDA68E !important
+
 }
+
+.middledDiv {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 50px 
+
+}
+
+
+html {
+
+    overflow: hidden;
+
+    height: 100%;
+
+}
+
+
+body {
+
+    height: 100%;
+
+
+    overflow: auto;
+}
+
+
+
+<!-- 
+
+	index page
+
+	watches page
+
+	clothes page
+
+	accessories page
+
+	shoes page
+
+	handbags page
+
+	about us page
+
+	terms and conditions page
+
+	privacy policy page
+
+
+
+	closable alert  boxes on every page
+
+	sign up modal on every page
+
+	jumbotron
+
+	access through navbar and side bar
+
+	carousel
+
+	social media links
+
+	multiple ways to get to pages
+
+	
+
+
+-->
+
+
 </style>
+
+
